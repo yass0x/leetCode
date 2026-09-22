@@ -1,0 +1,50 @@
+# ==========================================
+# Compiled Binaries & Executables
+# ==========================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.bin
+*.out
+
+# ==========================================
+# Operating System Junk
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden
+*.desktop
+
+# ==========================================
+# Common Visual Studio Code / Editor Trash
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# ==========================================
+# Logs, Backups, and Package Managers
+# ==========================================
+*.log
+*.tmp
+*.bak
+node_modules/
+.env
+.env.local
