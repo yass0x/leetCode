@@ -5,14 +5,15 @@ using namespace std;
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        int numsXor = 0;
-        for (int i = 0; i < nums.size(); i++)
+        
+        int lenght = nums.size();
+        int sum = lenght * (lenght + 1);
+        sum /=2;
+        for (int i = 0; i < lenght; i++)
         {
-            /* code */
-            numsXor ^= (i+1);
-            numsXor ^=nums[i];
+            sum -= nums[i];
         }
-        return numsXor;        
+        return sum;
         
     }
 };
